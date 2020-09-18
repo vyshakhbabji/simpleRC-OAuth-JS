@@ -30,14 +30,14 @@
 <script type="text/javascript">
 
     (function () {
-        var appKey = '';
-        var appSecret = '';
-        var server = 'https://platform.ringcentral.com';
+        var ClientID = '';
+        var ClientSecret = '';
+        var server = 'https://platform.ringcentral.com'; // for sandbox use 'https://platform.devtest.ringcentral.com'
 
         var sdk = new RingCentral.SDK({
             server: server,
-            clientId: appKey,
-            clientSecret: appSecret,
+            clientId: ClientID,
+            clientSecret: ClientSecret,
             appName: 'Demo',
             appVersion: RingCentral.SDK.version,
             redirectUri: decodeURIComponent(window.location.href.split('login', 1) + 'oauth/redirect.html')

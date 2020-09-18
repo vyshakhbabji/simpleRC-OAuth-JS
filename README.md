@@ -15,5 +15,5 @@ Setup redirect URL for your app as `http://localhost:[$PORT-NUMBER]/src/oauth/re
 
 ####STEP 4
 ```ssh
-> $http-server [port]
+> http-server [$PORT-NUMBER]
 ```
