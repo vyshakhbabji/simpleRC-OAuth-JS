@@ -15,5 +15,5 @@ Setup redirect URL for your app as `http://localhost:[$PORT-NUMBER]/src/oauth/re
 
 ####STEP 4
 ```ssh
-> http-server [$PORT-NUMBER]
+> http-server [$PORT-NUMBER] or npm start [$PORT-NUMBER]
 ```
