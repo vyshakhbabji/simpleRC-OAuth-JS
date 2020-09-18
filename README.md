@@ -1,7 +1,19 @@
-run 
+####STEP 1
 
-$npm install
+```ssh
+git clone https://github.com/vyshakhbabji/simpleRC-OAuth-JS.git
 
-edit ClientID and ClientSecret on login.html
+> cd [srcDir] 
+> npm install
+```
 
-$http-server [port]
+####STEP 2
+Edit ClientID and ClientSecret on login.html
+
+####STEP 3
+Setup redirect URL for your app as `http://localhost:[$PORT-NUMBER]/src/oauth/redirect.html`
+
+####STEP 4
+```ssh
+> $http-server [port]
+```
